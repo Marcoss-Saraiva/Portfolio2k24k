@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+#navegação{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    
+    
+}
+.menu{
+    background-color: burlywood;
+     padding: 15pt;
+     margin: 15pt;
+     transition: 1s;
+     text-transform: uppercase;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     display: inline-flex;
+}
+.menu:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 5pt;
+}
